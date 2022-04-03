@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "noImplicitAny": false,
+    "esModuleInterop": true,
+    "alwaysStrict": true,
+    "noImplicitReturns": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "module": "system",
+    "target": "es5",
+    "removeComments": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "inlineSourceMap": true,
+    "importHelpers": true,
+    "skipLibCheck": true,
+    "downlevelIteration": true,
+    "moduleResolution": "Node",
+    "strictNullChecks": false,
+    "allowSyntheticDefaultImports": true,
+    "types": [
+      "node",
+      "meteor",
+      "meteor-roles",
+      "meteor-universe-i18n",
+      "jest",
+      "mocha"
+    ],
+    "jsx": "react-jsx"
+  }
+}

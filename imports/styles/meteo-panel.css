@@ -1,0 +1,11 @@
+.meteo-panel {
+    margin: 30px;
+    padding: 30px;
+    border: 1px solid blue;
+    background: cadetblue;
+    border-radius: 12px;
+}
+
+.meteo-text {
+color: black;
+}

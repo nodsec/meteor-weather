@@ -1,0 +1,16 @@
+.warning-panel {
+  padding: 15px;
+  margin: 15px;
+
+  &.warning-panel-level-1 {
+    background: #ffef00;
+  }
+
+  &.warning-panel-level-2 {
+    background: #fdb81e;
+  }
+
+  &.warning-panel-level-3 {
+    background: #cd2026;
+  }
+}

@@ -1,0 +1,19 @@
+.warning-panel {
+    margin: 30px;
+    padding: 30px;
+    border-radius: 12px;
+    color: black;
+}
+
+.warning-panel.warning-level-1 {
+    background: yellow;
+}
+
+.warning-panel.warning-level-2 {
+    background: orange;
+}
+
+.warning-panel.warning-level-3 {
+    background: red;
+}
+

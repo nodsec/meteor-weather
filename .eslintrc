@@ -1,0 +1,101 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "env": {
+    "es6": true,
+    "meteor": true,
+    "node": true,
+    "browser": true,
+    "mocha": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "requireConfigFile": false
+  },
+  "plugins": [
+    "meteor",
+    "babel",
+    "security",
+    "react",
+    "react-svg",
+    "react-hooks",
+    "css-modules",
+    "@typescript-eslint",
+    "jest",
+    "mocha"
+  ],
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:meteor/recommended",
+    "plugin:security/recommended",
+    "plugin:react/recommended",
+    "plugin:react-svg/recommended",
+    "plugin:react-hooks/recommended",
+    "plugin:css-modules/recommended"
+  ],
+  "rules": {
+    "consistent-this": [2, "self"],
+    "no-invalid-this": 0,
+    "babel/no-invalid-this": 0,
+    "prefer-const": 0,
+    "@typescript-eslint/no-this-alias": 0,
+    "@typescript-eslint/no-explicit-any": 0,
+    "@typescript-eslint/explicit-module-boundary-types": 0,
+    "@typescript-eslint/ban-ts-comment": 1,
+    "ban-ts-comment": 0,
+    "semi": [1, "always"],
+    "max-lines-per-function": [
+      "warn",
+      {
+        "max": 300,
+        "skipBlankLines": true
+      }
+    ],
+    "react/prop-types": 0,
+    "no-console": 1,
+    "meteor/audit-argument-checks": 0,
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": 0,
+    "react/jsx-uses-react": "error",
+    "react/jsx-uses-vars": "error",
+    "no-unused-vars": [
+      "error",
+      {
+        "vars": "all",
+        "args": "none"
+      }
+    ],
+    "require-jsdoc": [
+      "error",
+      {
+        "require": {
+          "FunctionDeclaration": true,
+          "MethodDefinition": false,
+          "ClassDeclaration": false,
+          "ArrowFunctionExpression": false,
+          "FunctionExpression": false
+        }
+      }
+    ]
+  },
+  "globals": {
+    "kendo": true,
+    "kendoForm": true,
+    "i18n": true,
+    "describe": true,
+    "it": true
+  },
+  "settings": {
+    "react": {
+      "createClass": "createReactClass",
+      "pragma": "React",
+      "fragment": "Fragment",
+      "version": "detect"
+    }
+  }
+}
