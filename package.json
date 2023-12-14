@@ -31,7 +31,7 @@
     "@progress/kendo-react-popup": "^4.12.0",
     "@progress/kendo-react-progressbars": "^4.12.0",
     "@progress/kendo-react-treeview": "^4.12.0",
-    "@progress/kendo-react-upload": "^4.12.0",
+    "@progress/kendo-react-upload": "^7.0.0",
     "@progress/kendo-theme-material": "^3.34.0",
     "@progress/kendo-ui": "^2021.3.1109",
     "axios": "^0.24.0",
