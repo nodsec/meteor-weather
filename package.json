@@ -40,7 +40,7 @@
     "jquery": "^3.6.0",
     "jsdom": "^19.0.0",
     "lodash-es": "^4.17.21",
-    "meteor-node-stubs": "^1.1.0",
+    "meteor-node-stubs": "^1.2.10",
     "moment": "^2.29.1",
     "obce-okresy-kraje-slovenska": "git+https://github.com/acqsk/obce-okresy-kraje-slovenska.git",
     "react": "^17.0.2",
